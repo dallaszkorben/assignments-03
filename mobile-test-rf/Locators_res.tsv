@@ -1,0 +1,13 @@
+*Settings*							
+							
+*Variables*							
+${button_add}	id=com.test.calc:id/add						
+${button_sub}	id=com.test.calc:id/subtract						
+${button_sqr}	id=com.test.calc:id/sqrt						
+${button_div}	id=com.test.calc:id/divide						
+${button_mul}	id=com.test.calc:id/multiply						
+${button_pow}	id=com.test.calc:id/power						
+#							
+${title_main}	id=com.test.calc:id/title						
+#							
+${field_result}	id=com.test.calc:id/result						

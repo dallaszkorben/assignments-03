@@ -1,0 +1,15 @@
+*Settings*							
+Suite Setup	Open Calculator						
+Suite Teardown	Close Calculator						
+Resource	Locators_res.tsv						
+Resource	Constants_res.tsv						
+Resource	Keys.tsv						
+Library	AppiumLibrary						
+							
+*Variables*							
+							
+*Test Cases*							
+TestAdd	Click Element	${button_add}					
+	${result}	Get Text	${field_result}				
+	LOG	LOG:${result}					
+	sleep	5s					

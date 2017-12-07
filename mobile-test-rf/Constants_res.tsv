@@ -1,0 +1,10 @@
+*Settings*							
+							
+*Variables*							
+${Application}	http://localhost:4723/wd/hub						
+${platformName}	Android						
+${platformVersion}	4.4.2						
+${deviceName}	LGD320b45fd065						
+${app}	com.test.calc						
+${appPackage}	com.test.calc						
+${appActivity}	com.test.calc.activities.CalculatorActivity						

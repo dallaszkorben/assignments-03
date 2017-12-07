@@ -1,0 +1,8 @@
+*Settings*							
+Resource	Constants_res.tsv						
+							
+*Keywords*							
+Open Calculator	Open Application	${Application}	platformName=${platformName}	platformVersion=${platformVersion}	deviceName=${deviceName}	app=${app}	appPackage=${appPackage}
+	...	appActivity=${appActivity}					
+							
+Close Calculator	Close Application						
