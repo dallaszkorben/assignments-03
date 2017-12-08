@@ -60,18 +60,42 @@ For all test cases the ADD and SUBTRACT functions are the prerequisit as the bas
 
 ### Manual tests
    Here are two extra manual test cases:
+   
 * **Chain Divide Operations**
-  1. Start the application
-  2. Set the value to 1 by clicking on the ADD button
-  3. Check if get "1" in the result
-  4. Click on the DEVIDE by 2 button two times
-  5. Check if you get "0.25" in the result
-  6. Click on the MULTIPLY by 2 button two times
+  1. **Start** the application
+  2. Set the **value** to **1** by clicking on the ADD button
+  3. **Check** if get "**1**" in the result
+  4. **Click** on the **DEVIDE by 2** button **two** times
+  5. **Check** if you get "**0.25**" in the result
+  6. **Click** on the **MULTIPLY by 2** button **two** times
   7.  Check the result
-  Expected result: in the result you should get "1"
+  
+  **Expected result:** should get "**1**"
 
+
+* **Test Handling Big Numbers**
+  1. **Start** the application
+  2. Set the **value** to **10** by clicking on the **ADD** button **ten times**
+  3. Click on the **POWER by 2** button **four times**
+  
+   **Expected result:** should get en error message saying that the expecting value is too big.
+
+  
 ### Issues
-
+* **Issue - 1**
+  1. **Start** the application
+  2. provide a **negativ number** clicking on the **SUBSTRACT** button **some times**
+  3. Click on the **SQUARE ROOT** button
+  
+   **Expected result:** should get en error message saying that the operation is not valid on a negativ number
+   **Actual result:** the app **dies**
+   
+* **Issue - 2**
+  1. **Start** the application
+  3. Set the **value** to **3** by clicking on the **ADD** button **3 times**
+   
+    
+  
 
 
 ## REST test
