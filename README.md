@@ -88,12 +88,40 @@ For all test cases the ADD and SUBTRACT functions are the prerequisit as the bas
   3. Click on the **SQUARE ROOT** button
   
    **Expected result:** should get en error message saying that the operation is not valid on a negativ number
-   **Actual result:** the app **dies**
+   **Actual result:** the app **closes**
+   **Note:** The code should handle the  exceptions
    
 * **Issue - 2**
   1. **Start** the application
-  3. Set the **value** to **3** by clicking on the **ADD** button **3 times**
+  2. Set the **value** to **3** by clicking on the **ADD** button **3 times**
+  3. Click on the **MULTIPLY by 2** button
+  4. Check the value
    
+   **Expected result:** **9**
+   **Actual result:** **12**
+   **Note:** Wrong implementation. It calculates n*(n+1) instead of n*n
+
+* **Issue - 3**
+  1. **Start** the application
+  2. Set the **value** to **1** by clicking on the ADD button
+  3. **Check** if get "**1**" in the result
+  4. **Click** on the **DEVIDE by 2** button **two** times
+  5. **Check** if you get "**0.25**" in the result
+  6. **Click** on the **MULTIPLY by 2** button **two** times
+  7.  Check the result
+  
+  **Expected result:** should get "**1**"
+   **Actual result:** **1.00**
+   **Note:** The program should handle the decmal values in consistent manner
+
+* **Issue - 4**
+  1. **Start** the application
+  2. Set the **value** to **10** by clicking on the **ADD** button **ten times**
+  3. Click on the **POWER by 2** button **four times**
+  
+   **Expected result:** should get en error message saying that the expecting value is too big.
+   **Actual result:** The program feeezes.
+       
     
   
 
