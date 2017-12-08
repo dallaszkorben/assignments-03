@@ -17,6 +17,7 @@ In my test cases I focused on the simplest functionalities and some edge cases, 
 As I was not sure if it is OK to report issues on the https://github.com/MEZISH/wonky-android-calc/issues page, I collect them under the **Issues** section
 ### Automation
 
+- The Code is under the **mobile-test-rf** folder
 - Testing the Calculator mobile app, I chose **Robot Framework**, so it should be installed.
 - The **AppiumLibrary** is installed for Robot Framework
 - The **Appium** application should be installed and run before you run the Robot Framework
