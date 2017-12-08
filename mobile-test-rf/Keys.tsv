@@ -6,3 +6,23 @@ Open Calculator	Open Application	${Application}	platformName=${platformName}	pla
 	...	appActivity=${appActivity}					
 							
 Close Calculator	Close Application						
+							
+Start Application	Quit Application						
+	Launch Application						
+							
+Stop Application	Quit Application						
+							
+Set Integer by Add/Sub	[Arguments]	${number}					
+	Stop Application						
+	Start Application						
+	: FOR	${INDEX}	IN RANGE	0	abs(${number})		
+		run keyword if	${number} > 0	Click Element	${button_add}		
+		...	ELSE	Click Element	${button_sub}		
+							
+Get Result Number	${result}	Get Text	${field_result}				
+	${matches}	Get Regexp Matches	${result}	${result_text} (.*)	1		
+	[Return]	${matches[0]}					
+							
+Compare Result	[Arguments]	${expected_value}					
+	${result}	Get Result Number					
+	Should Be Equal	${result}	${expected_value}				

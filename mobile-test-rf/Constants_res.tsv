@@ -8,3 +8,5 @@ ${deviceName}	LGD320b45fd065
 ${app}	com.test.calc						
 ${appPackage}	com.test.calc						
 ${appActivity}	com.test.calc.activities.CalculatorActivity						
+#							
+${result_text}	Result:						
