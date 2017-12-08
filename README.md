@@ -78,7 +78,7 @@ For all test cases the ADD and SUBTRACT functions are the prerequisit as the bas
   2. Set the **value** to **10** by clicking on the **ADD** button **ten times**
   3. Click on the **POWER by 2** button **four times**
   
-   **Expected result:** should get en error message saying that the expecting value is too big.
+  **Expected result:** should get en error message saying that the expecting value is too big.
 
   
 ### Issues
@@ -87,9 +87,11 @@ For all test cases the ADD and SUBTRACT functions are the prerequisit as the bas
   2. provide a **negativ number** clicking on the **SUBSTRACT** button **some times**
   3. Click on the **SQUARE ROOT** button
   
-   **Expected result:** should get en error message saying that the operation is not valid on a negativ number
-   **Actual result:** the app **closes**
-   **Note:** The code should handle the  exceptions
+  **Expected result:** should get en error message saying that the operation is not valid on a negativ number
+   
+  **Actual result:** the app **closes**
+   
+  **Note:** The code should handle the  exceptions
    
 * **Issue - 2**
   1. **Start** the application
@@ -97,9 +99,12 @@ For all test cases the ADD and SUBTRACT functions are the prerequisit as the bas
   3. Click on the **MULTIPLY by 2** button
   4. Check the value
    
-   **Expected result:** **9**
-   **Actual result:** **12**
-   **Note:** Wrong implementation. It calculates n*(n+1) instead of n*n
+   
+  **Expected result:** **9**
+   
+  **Actual result:** **12**
+   
+  **Note:** Wrong implementation. It calculates n*(n+1) instead of n*n
 
 * **Issue - 3**
   1. **Start** the application
@@ -111,16 +116,19 @@ For all test cases the ADD and SUBTRACT functions are the prerequisit as the bas
   7.  Check the result
   
   **Expected result:** should get "**1**"
-   **Actual result:** **1.00**
-   **Note:** The program should handle the decmal values in consistent manner
+  
+  **Actual result:** **1.00**
+  
+  **Note:** The program should handle the decmal values in consistent manner
 
 * **Issue - 4**
   1. **Start** the application
   2. Set the **value** to **10** by clicking on the **ADD** button **ten times**
   3. Click on the **POWER by 2** button **four times**
   
-   **Expected result:** should get en error message saying that the expecting value is too big.
-   **Actual result:** The program feeezes.
+  **Expected result:** should get en error message saying that the expecting value is too big.
+   
+  **Actual result:** The program feeezes.
        
     
   
