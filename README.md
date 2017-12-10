@@ -1,6 +1,9 @@
-# Assignments
+# Assignment
 Mobile test and REST test assignments
-## Mobile test
+
+
+#  Mobile test
+
 As I have no specification I do not know what is the expected behaviour of the different functions.
 I used my common sense which is sometimes probably different what the customer wants.
 I took the functions of the buttons reflect on the TEXT on them.
@@ -135,4 +138,27 @@ For all test cases the ADD and SUBTRACT functions are the prerequisit as the bas
   
 
 
-## REST test
+# REST test
+- I selected **Java** for testing the REST end-points
+- The Code is under the **rest-test-java** folder as **JUnit** code
+- I use the **com.sun.jersey.api.client** package to call the end-points
+- I use the **org.json** package to convert the response to JSONObject
+
+* **test01EmailCheck()**
+
+  - I call the **/users/** end-point's **GET** method with parameter "1" refering to the 1st user
+  - I parse the response and print out the address to the output.
+  - I check if the email is valid
+  
+  * **test02IdCheck()**
+
+  - I call the **/posts/** end-point's **GET** method with parameter "userId=1" refering to the 1st user
+  - I parse the response which is a list of posts of the userId=1 user
+  - I go through the posts and verify if the **id** is valid ( >0 ) **title** is valid ( not empty string ) and the **body** is valid (not empty string)
+  
+  * **test03IdCheck()**
+  
+  - I call the **/posts/** end-point's **POST** method and send a **message**
+  - The message contains the new **id=101**, **userId=1**, **title="mytitle"** and **body="mybody"**
+  - The response contains the data of the newly create record
+  - I verify if the **id**, **userId**, **title** and **body** in the response equals to the message data.
